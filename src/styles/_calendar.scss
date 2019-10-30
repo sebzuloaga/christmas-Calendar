@@ -3,12 +3,29 @@ footer{
     width: 100vw;
     background-color: $green;
     overflow-x: hidden;
+    display: flex;
+    position: relative;
+
+    aside{
+        height: 100%;
+        width: 5vw;
+        position: absolute;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:last-of-type{
+            left: 95%;
+        }
+    }
 
     .dayContainer{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         height: 10vh;
+        width: 100vw;
         margin: 2.5vh 5vw;
 
         article{
