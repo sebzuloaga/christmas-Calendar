@@ -4,7 +4,9 @@ import Day from './Day';
 function Calendar() {
     return (
         <footer>
-            <Day />
+            <div className="dayContainer">
+                <Day />
+            </div>
         </footer>
     )
 }

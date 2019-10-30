@@ -1,5 +1,30 @@
 footer{ 
-    height: 20vh;
+    height: 15vh;
     width: 100vw;
+    background-color: $green;
+    overflow-x: hidden;
+
+    .dayContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: 10vh;
+        margin: 2.5vh 5vw;
+
+        article{
+            height:80%;
+            width: 15vw;
+            margin: 0 5vw;
+
+            h4{
+                color: $transparentWhite;
+                font-weight: bold;
+
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+    }
 }
 
