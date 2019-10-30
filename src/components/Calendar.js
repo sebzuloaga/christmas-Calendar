@@ -11,21 +11,20 @@ function Calendar() {
 
     const handleClick = (orientation) => {
 
-        if(orientation === 'left' && day === 1){
-            return;
-        }else if (orientation === 'right' && day === 31){
-            return;
-        }else{
-            if(orientation === 'left'){
-                setDay(day - 1);
-            }else{
-                setDay(day + 1);
-            }
+        if(day >= 1 && day <= 29) {
             const currentPosition = position.left;
             const positionToNumber = (Number(currentPosition.split('%')[0]));
-            const newStyle = orientation === 'left' ? (positionToNumber + 25) + '%' : (positionToNumber - 25) + '%';
-            setPosition({left: newStyle});
-        }      
+
+            if(orientation === 'left' && day > 1){
+                setDay(day - 1);
+                const newStyle = (positionToNumber + 25) + '%';
+                setPosition({left: newStyle}); 
+            }else if(orientation === 'right' && day < 29){
+                setDay(day + 1);
+                const newStyle = (positionToNumber - 25) + '%';
+                setPosition({left: newStyle}); 
+            }
+        }
     }
 
     return (
@@ -36,7 +35,7 @@ function Calendar() {
                     return <Day data={day} key={day.date}/>
                 })}
             </div>
-            <Arrow oreitnation="right" handleClick={handleClick}/>
+            <Arrow orientation="right" handleClick={handleClick}/>
         </footer>
     )
 }
