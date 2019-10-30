@@ -1,9 +1,11 @@
 import React from 'react';
 
-function Arrow() {
+function Arrow(props) {
+
+    const arrowType = props.orientation === 'left' ? <span>&lt;</span> : <span>&gt;</span>; 
     return (
         <aside>
-            <span>&lt;</span>
+            {arrowType}
         </aside>
     )
 }

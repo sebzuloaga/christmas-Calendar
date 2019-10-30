@@ -5,11 +5,11 @@ import Day from './Day';
 function Calendar() {
     return (
         <footer>
-            <Arrow />
+            <Arrow orientation="left"/>
             <div className="dayContainer">
                 <Day />
             </div>
-            <Arrow />
+            <Arrow oreitnation="right"/>
         </footer>
     )
 }
