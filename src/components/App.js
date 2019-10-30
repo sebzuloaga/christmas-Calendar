@@ -2,7 +2,7 @@ import React from 'react';
 import Welcome from './Welcome';
 import Calendar from './Calendar';
 import DayOverview from './DayOverview';
-import '../styles/base.scss';
+import '../styles/style.scss';
 
 function App() {
   return (
