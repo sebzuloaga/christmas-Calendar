@@ -6,12 +6,12 @@ import calendarData from '../data/calendarData';
 const calendar = calendarData;
 
 function Calendar() {
-    const [position, setPosition] = useState({left: '35%'});
+    const [position, setPosition] = useState({left: '0%'});
 
     const handleClick = (orientation) => {
         const currentPosition = position.left;
         const positionToNumber = (Number(currentPosition.split('%')[0]));
-        const newStyle = orientation === 'left' ? (positionToNumber - 16.75) + '%' : (positionToNumber + 17) + '%';
+        const newStyle = orientation === 'left' ? (positionToNumber + 25) + '%' : (positionToNumber - 25) + '%';
         setPosition({left: newStyle});
     }
 

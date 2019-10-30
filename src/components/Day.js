@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Day () {
+function Day (props) {
     return(
         <article>
             <figure>
 
             </figure>
-            <h4>1st day of Christmas</h4>
+            <h4>{props.data.title} day of Christmas</h4>
         </article>
     )
 }
