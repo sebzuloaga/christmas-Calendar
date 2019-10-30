@@ -2,9 +2,15 @@ import React from 'react';
 
 function Arrow(props) {
 
-    const arrowType = props.orientation === 'left' ? <span>&lt;</span> : <span>&gt;</span>; 
+    const orientation = props.orientation;
+    
+    const handleClick = () => {
+        props.handleClick(orientation);
+    }
+
+    const arrowType = orientation === 'left' ? <span>&lt;</span> : <span>&gt;</span>; 
     return (
-        <aside>
+        <aside onClick={handleClick}>
             {arrowType}
         </aside>
     )
