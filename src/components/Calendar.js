@@ -7,12 +7,25 @@ const calendar = calendarData;
 
 function Calendar() {
     const [position, setPosition] = useState({left: '0%'});
+    const [day, setDay] = useState(1);
 
     const handleClick = (orientation) => {
-        const currentPosition = position.left;
-        const positionToNumber = (Number(currentPosition.split('%')[0]));
-        const newStyle = orientation === 'left' ? (positionToNumber + 25) + '%' : (positionToNumber - 25) + '%';
-        setPosition({left: newStyle});
+
+        if(orientation === 'left' && day === 1){
+            return;
+        }else if (orientation === 'right' && day === 31){
+            return;
+        }else{
+            if(orientation === 'left'){
+                setDay(day - 1);
+            }else{
+                setDay(day + 1);
+            }
+            const currentPosition = position.left;
+            const positionToNumber = (Number(currentPosition.split('%')[0]));
+            const newStyle = orientation === 'left' ? (positionToNumber + 25) + '%' : (positionToNumber - 25) + '%';
+            setPosition({left: newStyle});
+        }      
     }
 
     return (
