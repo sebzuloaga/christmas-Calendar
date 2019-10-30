@@ -1,10 +1,11 @@
 footer{ 
     height: 15vh;
     width: 100vw;
-    background-color: $green;
-    overflow-x: hidden;
     display: flex;
     position: relative;
+    overflow-x: hidden;
+    color: $transparentWhite;
+    background-color: $green;
 
     aside{
         height: 100%;
@@ -14,6 +15,15 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 1.5em;
+        font-weight: bold;
+
+        transition: font-size 1s ease;
+
+        &:hover {
+            color: white;
+            font-size: 2.5em;
+        }
 
         &:last-of-type{
             left: 95%;
@@ -21,12 +31,14 @@ footer{
     }
 
     .dayContainer{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
         height: 10vh;
         width: 100vw;
         margin: 2.5vh 5vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        position: relative;
+        left: 30%;
 
         article{
             height:80%;
@@ -34,7 +46,6 @@ footer{
             margin: 0 5vw;
 
             h4{
-                color: $transparentWhite;
                 font-weight: bold;
 
                 &:hover{
