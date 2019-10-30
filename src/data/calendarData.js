@@ -28,105 +28,105 @@ const calendarData = [{
     },
     {
         date: "05/12/2019",
-        title: "4th",
-        category: "Gift",
-        clue: 'This is the clue for this gift',
-        description: 'This is the gift'
-    },
-    {
-        date: "06/12/2019",
         title: "5th",
         category: "Gift",
         clue: 'This is the clue for this gift',
         description: 'This is the gift'
     },
     {
-        date: "07/12/2019",
+        date: "06/12/2019",
         title: "6th",
         category: "Gift",
         clue: 'This is the clue for this gift',
         description: 'This is the gift'
     },
     {
-        date: "08/12/2019",
+        date: "07/12/2019",
         title: "7th",
         category: "Gift",
         clue: 'This is the clue for this gift',
         description: 'This is the gift'
     },
     {
-        date: "09/12/2019",
+        date: "08/12/2019",
         title: "8th",
         category: "Gift",
         clue: 'This is the clue for this gift',
         description: 'This is the gift'
     },
     {
-        date: "10/12/2019",
+        date: "09/12/2019",
         title: "9th",
         category: "Gift",
         clue: 'This is the clue for this gift',
         description: 'This is the gift'
     },
     {
-        date: "11/12/2019",
+        date: "10/12/2019",
         title: "10th",
         category: "Gift",
         clue: 'This is the clue for this gift',
         description: 'This is the gift'
     },
     {
-        date: "12/12/2019",
+        date: "11/12/2019",
         title: "11th",
         category: "Gift",
         clue: 'This is the clue for this gift',
         description: 'This is the gift'
     },
     {
-        date: "13/12/2019",
+        date: "12/12/2019",
         title: "12th",
         category: "Gift",
         clue: 'This is the clue for this gift',
         description: 'This is the gift'
     },
     {
-        date: "14/12/2019",
+        date: "13/12/2019",
         title: "13th",
         category: "Gift",
         clue: 'This is the clue for this gift',
         description: 'This is the gift'
     },
     {
-        date: "15/12/2019",
+        date: "14/12/2019",
         title: "14th",
         category: "Gift",
         clue: 'This is the clue for this gift',
         description: 'This is the gift'
     },
     {
-        date: "16/12/2019",
+        date: "15/12/2019",
         title: "15th",
         category: "Gift",
         clue: 'This is the clue for this gift',
         description: 'This is the gift'
     },
     {
-        date: "17/12/2019",
+        date: "16/12/2019",
         title: "16th",
         category: "Gift",
         clue: 'This is the clue for this gift',
         description: 'This is the gift'
     },
     {
-        date: "18/12/2019",
+        date: "17/12/2019",
         title: "17th",
         category: "Gift",
         clue: 'This is the clue for this gift',
         description: 'This is the gift'
     },
     {
-        date: "19/12/2019",
+        date: "18/12/2019",
         title: "18th",
+        category: "Gift",
+        clue: 'This is the clue for this gift',
+        description: 'This is the gift'
+    },
+    {
+        date: "19/12/2019",
+        title: "19th",
         category: "Gift",
         clue: 'This is the clue for this gift',
         description: 'This is the gift'
