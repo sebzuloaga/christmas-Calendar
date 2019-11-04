@@ -7,7 +7,7 @@ function Day (props) {
             <figure>
                 <img src={Gift} />
             </figure>
-            <h4>{props.data.title} day of Christmas</h4>
+            <h4>{props.data.day} day of Christmas</h4>
         </article>
     )
 }
