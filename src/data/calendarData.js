@@ -2,10 +2,14 @@ const calendarData = [{
         date: "01/12/2019",
         day: "1st",
         category: "Gift",
-        clue: 'This is the clue for this gift',
-        title: 'This is the title',
-        description: 'This is the gift',
-        phrase: 'This is the prhase',
+        clue: '',
+        title: 'Joshua\'s Christmas Calendar',
+        description: `This is my gift to you Joshie. This Christmas I will not be in Australia.
+                        I'm excited to see my family, but I am very sad I won't get to spend 
+                        the time with you. I made this calendar to make it up to you. This 
+                        calendar will give you something different every day so I can still 
+                        be with you every day!`,
+        phrase: 'A gift a day for Joshua. No cheating allowed!',
         opened: false
     },
     {
