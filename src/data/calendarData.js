@@ -67,9 +67,14 @@ const calendarData = [{
         day: "7th",
         category: "Gift",
         clue: 'This is the clue for this gift',
-        title: 'This is the title',
-        description: 'This is the gift',
-        phrase: 'This is the prhase',
+        title: 'The day is 7, the word is luck.',
+        description: `You are a man with fine taste, and I wish that I was able to help out
+                        get all those fancy things things that are on your list. Though I might
+                        not be able to help you out with a lot of money, I would like to gift 
+                        you 4 lotto tickets hoping that they might get you closer to crossing out 
+                        some of the things on your list!`,
+        phrase: `If there are no winnings, they definitely
+                    gave me the wrong tickets at the store...`,
         opened: false
     },
     {
