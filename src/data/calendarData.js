@@ -2,8 +2,14 @@ const calendarData = [{
         date: "01/12/2019",
         day: "1st",
         category: "Gift",
-        clue: 'This is the clue for this gift',
-        description: 'This is the gift',
+        clue: '',
+        title: 'Joshua\'s Christmas Calendar',
+        description: `This is my gift to you Joshie. This Christmas I will not be in Australia.
+                        I'm excited to see my family, but I am very sad I won't get to spend 
+                        the time with you. I made this calendar to make it up to you. This 
+                        calendar will give you something different every day so I can still 
+                        be with you every day!`,
+        phrase: 'A gift a day for Joshua. No cheating allowed!',
         opened: false
     },
     {
@@ -11,7 +17,9 @@ const calendarData = [{
         day: "2nd",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -19,7 +27,9 @@ const calendarData = [{
         day: "3rd",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -27,7 +37,9 @@ const calendarData = [{
         day: "4th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -35,7 +47,9 @@ const calendarData = [{
         day: "5th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -43,7 +57,9 @@ const calendarData = [{
         day: "6th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -51,7 +67,14 @@ const calendarData = [{
         day: "7th",
         category: "Gift",
         clue: 'This is the clue for this gift',
-        description: 'This is the gift',
+        title: 'The day is 7, the word is luck.',
+        description: `You are a man with fine taste, and I wish that I was able to help out
+                        get all those fancy things things that are on your list. Though I might
+                        not be able to help you out with a lot of money, I would like to gift 
+                        you 4 lotto tickets hoping that they might get you closer to crossing out 
+                        some of the things on your list!`,
+        phrase: `If there are no winnings, they definitely
+                    gave me the wrong tickets at the store...`,
         opened: false
     },
     {
@@ -59,7 +82,9 @@ const calendarData = [{
         day: "8th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -67,7 +92,9 @@ const calendarData = [{
         day: "9th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -75,7 +102,9 @@ const calendarData = [{
         day: "10th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -83,7 +112,9 @@ const calendarData = [{
         day: "11th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -91,7 +122,9 @@ const calendarData = [{
         day: "12th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -99,7 +132,9 @@ const calendarData = [{
         day: "13th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -107,7 +142,9 @@ const calendarData = [{
         day: "14th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -115,7 +152,9 @@ const calendarData = [{
         day: "15th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -123,7 +162,9 @@ const calendarData = [{
         day: "16th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -131,7 +172,9 @@ const calendarData = [{
         day: "17th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -139,7 +182,9 @@ const calendarData = [{
         day: "18th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -147,7 +192,9 @@ const calendarData = [{
         day: "19th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -155,7 +202,9 @@ const calendarData = [{
         day: "20th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -163,7 +212,9 @@ const calendarData = [{
         day: "21st",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -171,7 +222,9 @@ const calendarData = [{
         day: "22nd",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -179,7 +232,9 @@ const calendarData = [{
         day: "23rd",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -187,7 +242,9 @@ const calendarData = [{
         day: "24th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -195,7 +252,9 @@ const calendarData = [{
         day: "25th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -203,7 +262,9 @@ const calendarData = [{
         day: "26th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -211,7 +272,9 @@ const calendarData = [{
         day: "27th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -219,7 +282,9 @@ const calendarData = [{
         day: "28th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -227,7 +292,9 @@ const calendarData = [{
         day: "29th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -235,7 +302,9 @@ const calendarData = [{
         day: "30th",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     },
     {
@@ -243,7 +312,9 @@ const calendarData = [{
         day: "31st",
         category: "Gift",
         clue: 'This is the clue for this gift',
+        title: 'This is the title',
         description: 'This is the gift',
+        phrase: 'This is the prhase',
         opened: false
     }
 ]

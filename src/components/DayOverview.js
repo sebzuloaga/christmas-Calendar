@@ -2,11 +2,21 @@ import React from 'react';
 import PictureSummary from './PictureSummary';
 import GiftSummary from './GiftSummary';
 
-function DayOverview() {
+function DayOverview(props) {
     return (
         <main>
-            <PictureSummary />
-            <GiftSummary />
+            {
+                props.data.map( day => {
+                    return(
+                        <article>
+                            <PictureSummary 
+                                hint={day.clue}/>
+                            <GiftSummary 
+                                data={day}/>
+                        </article>
+                    )
+                })
+            }
         </main>
     )
 }
