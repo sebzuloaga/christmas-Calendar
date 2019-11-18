@@ -4,7 +4,7 @@ const calendarData = [
     {
         date: "01/12/2019",
         day: "1st",
-        category: "Gift",
+        category: "Message",
         clue: null,
         title: 'Joshua\'s Christmas Calendar',
         description: `This is my gift to you Joshie. This Christmas I will not be in Australia.
