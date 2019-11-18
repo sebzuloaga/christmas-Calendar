@@ -5,13 +5,13 @@ import calendarData from '../data/calendarData';
 
 const calendar = calendarData;
 
-function Calendar() {
+function Calendar(props) {
     const [position, setPosition] = useState({left: '0%'});
     const [day, setDay] = useState(1);
 
     const handleClick = (orientation) => {
 
-        if(day >= 1 && day <= 29) {
+        if(day >= 1 && day <= 24) {
             const currentPosition = position.left;
             const positionToNumber = (Number(currentPosition.split('%')[0]));
 
@@ -19,7 +19,7 @@ function Calendar() {
                 setDay(day - 1);
                 const newStyle = (positionToNumber + 25) + '%';
                 setPosition({left: newStyle}); 
-            }else if(orientation === 'right' && day < 29){
+            }else if(orientation === 'right' && day < 24){
                 setDay(day + 1);
                 const newStyle = (positionToNumber - 25) + '%';
                 setPosition({left: newStyle}); 
@@ -32,7 +32,7 @@ function Calendar() {
             <Arrow orientation="left" handleClick={handleClick}/>
             <div className="dayContainer" style={position}>
                 {calendar.map( (day) => {
-                    return <Day data={day} key={day.date}/>
+                    return <Day data={day} key={day.date} handleCalendarClick={props.handleCalendarClick}/>
                 })}
             </div>
             <Arrow orientation="right" handleClick={handleClick}/>

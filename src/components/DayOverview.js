@@ -2,11 +2,13 @@ import React from 'react';
 import PictureSummary from './PictureSummary';
 import GiftSummary from './GiftSummary';
 
-function DayOverview() {
+function DayOverview(props) {
     return (
         <main>
-            <PictureSummary />
-            <GiftSummary />
+            <article>
+                <PictureSummary data={props.data} />
+                <GiftSummary data={props.data}/>
+            </article>
         </main>
     )
 }

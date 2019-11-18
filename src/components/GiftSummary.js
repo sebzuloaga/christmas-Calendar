@@ -6,7 +6,7 @@ function GiftSummary (props) {
     return (
         <section>
             <RevealButton />
-            <GiftDescription />
+            <GiftDescription data={props.data}/>
         </section>
     )
 }
