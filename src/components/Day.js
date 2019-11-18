@@ -18,9 +18,12 @@ function Day (props) {
         }
     })
 
+    const handleClick = (e) => {
+        props.handleCalendarClick(e, props.data.date)
+    }
 
     return(
-        <article>
+        <article onClick={handleClick}>
             <figure>
                 <img src={img} />
             </figure>
