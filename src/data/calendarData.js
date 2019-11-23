@@ -1,11 +1,9 @@
-import { watch } from "fs"
-
 const calendarData = [
     {
         date: "01/12/2019",
         day: "1st",
         category: "Message",
-        clue: null,
+        clue: 'Tune in on the 1st of December for the grand reveal!',
         title: 'Joshua\'s Christmas Calendar',
         description: `This is my gift to you Joshie. This Christmas I will not be in Australia.
                         I'm excited to see my family, but I am very sad I won't get to spend 

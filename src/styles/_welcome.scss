@@ -2,5 +2,11 @@ header{
     height: 10vh;
     width: 100vw;
     background-color: $blue;
+
+    h1{
+        background-color: white;
+        height: 100%;
+        padding: 2vh 0 2vh 5vw;
+    }
 }
 
